@@ -1,0 +1,22 @@
+
+sample: ['319_99', '63084', '63083',  '19_5367', '2048_07', '191_98', '17_08', '906_02', '1352_03', '159_98', '146_97', '176_98']
+refs: ['hg19']
+maleSamples : ['319_99', '63084', '2048_07', '159_98', '146_97']
+WorkingDir: ...
+CodeDir: ...
+ModifyPhaseSet: 'modify_PS.py'
+break_vs_haplotags: 'break_vs_haplotags.py'
+breakpoint_to_phasedHaps: 'breakpoint__to__phasedHaps.py'
+RNAseq_SNPcountRead: 'RNAseq_SNPcountRead.py'
+### tools
+MySamtools: .../samtools
+MyPython: .../python
+MyPython_3_7: .../python3.7
+MyPicard: .../picard-2.20.8-0/picard.jar
+MyBwa: .../bwa
+MyJava: .../java
+MyHAPCUT2: .../HapCUT2/build/HAPCUT2
+Mywhatshap: .../bin/whatshap
+MyExtractHAIRS: .../HapCUT2/build/extractHAIRS
+MyFreebayes: .../freebayes
+MyBcftools: .../bcftools
