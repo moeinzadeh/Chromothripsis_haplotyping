@@ -1,2 +1,2 @@
-# Chromotripsis Haplotyping
+# Chromothripsis Haplotyping
 ![Snakemake](dag.svg)
